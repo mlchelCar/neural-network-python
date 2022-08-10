@@ -211,3 +211,12 @@ class NeuralNetwork():
         os.chdir('..')
 
         raise(NotImplementedError)
+        
+def main():
+    NeuralNet = NeuralNetwork(
+        [(784, 'input'), (30, 'sigmoid'), (30, 'sigmoid'), (10, 'softmax')])
+    # NeuralNet.create_network()
+    # NeuralNet.save_network()
+
+if __name__ == '__main__':
+    main()
