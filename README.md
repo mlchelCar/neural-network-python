@@ -1,2 +1,2 @@
 # neural-network-python
-Neural Network in python not using machine learning libraries
+Neural Network in python without machine learning libraries
